@@ -1,5 +1,8 @@
 # 发布到 Zenodo（拿 DOI）
 
+> ✅ **已发布（2026-11-19）**：DOI **[10.5281/zenodo.24353870](https://doi.org/10.5281/zenodo.24353870)** ｜ 记录页 https://zenodo.org/records/24353870 ｜ 版本 v1.3.1
+
+
 ## 方式 A：GitHub–Zenodo 自动集成（推荐，一次配置长期有效）
 
 1. 用 GitHub 账号登录 https://zenodo.org （Settings → GitHub）。
