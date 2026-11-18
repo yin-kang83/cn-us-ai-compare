@@ -10,6 +10,7 @@
 
 | 路径 | 内容 |
 |---|---|
+| `papers/` | 两篇工作论文（论文 1：AI 投资竞赛实证；论文 2：可审计跨市场对比方法论） |
 | `reports/` | 公开版报告（Markdown + PDF）与图表（美国 capex/营收、A 股纯度×风险、研究体系架构） |
 | `methodology/` | 方法论、底层架构与数据通道说明（六环节 + 反馈回路） |
 | `data/` | 可回溯数据：197 条 key_claims、48 条证伪假设、美国 12 家财务、单季 capex、A 股 23 家 Q3/H1 摘要（CSV） |
@@ -28,6 +29,13 @@ python scripts/fetch_sec_companyfacts.py --cik 0000789019 --out data/sec/MSFT.js
 # 下载巨潮公告 PDF（示例：协创数据 2026 三季报；orgId 可在巨潮公告页查询）
 python scripts/fetch_cninfo.py --code 300857 --org 9900039793 --title 2026年三季度报告 --out data/cn/
 ```
+
+## Working papers
+
+- **Paper 1** (v0.3, 14 pp.): *The AI investment race: revenue, capital expenditure, and financing structures in US and Chinese listed firms (2026)*.
+- **Paper 2** (v0.2, 18 pp.): *Making Cross-Market Industry Comparisons Auditable: An Evidence-Graded, Falsifiable Framework*.
+
+PDFs are in [`papers/`](papers/). Working papers, not peer reviewed.
 
 ## 核心结论（摘要）
 
