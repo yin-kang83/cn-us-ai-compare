@@ -1,0 +1,210 @@
+[
+  {
+    "ticker": "MSFT",
+    "latest": {
+      "tag": "PaymentsToAcquirePropertyPlantAndEquipment",
+      "start": "2026-07-01",
+      "end": "2026-09-30",
+      "val": 39367000000,
+      "filed": "2026-10-28"
+    },
+    "year_ago": {
+      "tag": "PaymentsToAcquirePropertyPlantAndEquipment",
+      "start": "2025-07-01",
+      "end": "2025-09-30",
+      "val": 19394000000,
+      "filed": "2026-10-28"
+    },
+    "capex_yoy_pct": 103.0,
+    "series": [
+      {
+        "end": "2026-09-30",
+        "capex_bn": 39.4
+      },
+      {
+        "end": "2026-03-31",
+        "capex_bn": 30.9
+      },
+      {
+        "end": "2025-12-31",
+        "capex_bn": 29.9
+      },
+      {
+        "end": "2025-09-30",
+        "capex_bn": 19.4
+      },
+      {
+        "end": "2025-03-31",
+        "capex_bn": 16.7
+      },
+      {
+        "end": "2024-12-31",
+        "capex_bn": 15.8
+      },
+      {
+        "end": "2024-09-30",
+        "capex_bn": 14.9
+      },
+      {
+        "end": "2024-03-31",
+        "capex_bn": 11.0
+      }
+    ]
+  },
+  {
+    "ticker": "GOOGL",
+    "latest": {
+      "tag": "PaymentsToAcquirePropertyPlantAndEquipment",
+      "start": "2026-01-01",
+      "end": "2026-03-31",
+      "val": 35674000000,
+      "filed": "2026-04-30"
+    },
+    "year_ago": {
+      "tag": "PaymentsToAcquirePropertyPlantAndEquipment",
+      "start": "2025-01-01",
+      "end": "2025-03-31",
+      "val": 17197000000,
+      "filed": "2026-04-30"
+    },
+    "capex_yoy_pct": 107.4,
+    "series": [
+      {
+        "end": "2026-03-31",
+        "capex_bn": 35.7
+      },
+      {
+        "end": "2025-03-31",
+        "capex_bn": 17.2
+      },
+      {
+        "end": "2024-03-31",
+        "capex_bn": 12.0
+      },
+      {
+        "end": "2023-03-31",
+        "capex_bn": 6.3
+      },
+      {
+        "end": "2022-03-31",
+        "capex_bn": 9.8
+      },
+      {
+        "end": "2021-03-31",
+        "capex_bn": 5.9
+      },
+      {
+        "end": "2020-09-30",
+        "capex_bn": 5.4
+      },
+      {
+        "end": "2020-06-30",
+        "capex_bn": 5.4
+      }
+    ]
+  },
+  {
+    "ticker": "AMZN",
+    "latest": {
+      "tag": "PaymentsToAcquireProductiveAssets",
+      "start": "2026-07-01",
+      "end": "2026-09-30",
+      "val": 77259000000,
+      "filed": "2026-10-30"
+    },
+    "year_ago": {
+      "tag": "PaymentsToAcquireProductiveAssets",
+      "start": "2025-07-01",
+      "end": "2025-09-30",
+      "val": 35095000000,
+      "filed": "2026-10-30"
+    },
+    "capex_yoy_pct": 120.1,
+    "series": [
+      {
+        "end": "2026-09-30",
+        "capex_bn": 77.3
+      },
+      {
+        "end": "2026-06-30",
+        "capex_bn": 54.2
+      },
+      {
+        "end": "2026-03-31",
+        "capex_bn": 44.2
+      },
+      {
+        "end": "2025-09-30",
+        "capex_bn": 35.1
+      },
+      {
+        "end": "2025-06-30",
+        "capex_bn": 32.2
+      },
+      {
+        "end": "2025-03-31",
+        "capex_bn": 25.0
+      },
+      {
+        "end": "2024-09-30",
+        "capex_bn": 22.6
+      },
+      {
+        "end": "2024-06-30",
+        "capex_bn": 17.6
+      }
+    ]
+  },
+  {
+    "ticker": "META",
+    "latest": {
+      "tag": "PaymentsToAcquirePropertyPlantAndEquipment",
+      "start": "2026-01-01",
+      "end": "2026-03-31",
+      "val": 18997000000,
+      "filed": "2026-04-30"
+    },
+    "year_ago": {
+      "tag": "PaymentsToAcquirePropertyPlantAndEquipment",
+      "start": "2025-01-01",
+      "end": "2025-03-31",
+      "val": 12941000000,
+      "filed": "2026-04-30"
+    },
+    "capex_yoy_pct": 46.8,
+    "series": [
+      {
+        "end": "2026-03-31",
+        "capex_bn": 19.0
+      },
+      {
+        "end": "2025-03-31",
+        "capex_bn": 12.9
+      },
+      {
+        "end": "2024-03-31",
+        "capex_bn": 6.4
+      },
+      {
+        "end": "2023-03-31",
+        "capex_bn": 6.8
+      },
+      {
+        "end": "2022-03-31",
+        "capex_bn": 5.4
+      },
+      {
+        "end": "2021-03-31",
+        "capex_bn": 4.3
+      },
+      {
+        "end": "2020-03-31",
+        "capex_bn": 3.6
+      },
+      {
+        "end": "2019-03-31",
+        "capex_bn": 3.8
+      }
+    ]
+  }
+]
