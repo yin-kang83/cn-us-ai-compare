@@ -82,6 +82,8 @@ def main() -> int:
     ap.add_argument("--github", required=True, help="owner/repo")
     ap.add_argument("--zenodo-id", required=True, help="Zenodo record id（版本记录）")
     ap.add_argument("--tag", default="v1.3.1")
+    ap.add_argument("--release-file", default="",
+                    help="Zenodo 上传时使用的 zip 路径（用于精确比对文件校验和）")
     args = ap.parse_args()
     repo = Path(args.repo_dir).resolve()
     results = []
@@ -120,19 +122,25 @@ def main() -> int:
         ver = rec.get("metadata", {}).get("version", "")
         doi = rec.get("doi", "")
         files = rec.get("files", [])
-        pub_sha = files[0].get("checksum", "").replace("sha256:", "") if files else ""
+        checksum = files[0].get("checksum", "") if files else ""
+        algo, _, pub_hash = checksum.partition(":") if ":" in checksum else ("md5", "", checksum)
         results.append(("Zenodo version", ver, "OK" if ver == args.tag else f"DIFF (期望 {args.tag})"))
         results.append(("Zenodo DOI", doi, "OK"))
-        # 本地 tag 归档 sha256
-        with tempfile.TemporaryDirectory() as td:
-            zpath = Path(td) / "archive.zip"
-            rc, _, err = run([GIT, "archive", "--format=zip", f"-o{zpath}", args.tag], cwd=repo)
-            if rc == 0:
-                local_sha = hashlib.sha256(zpath.read_bytes()).hexdigest()
-                results.append(("Zenodo 文件 sha256", pub_sha[:16] + "…",
-                                "MATCH" if pub_sha == local_sha else "DIFF"))
-            else:
-                results.append(("Zenodo 文件 sha256", "N/A", f"FAIL {err[:60]}"))
+        # 本地发布包 -> 按 Zenodo 给出的算法比对
+        src = Path(args.release_file) if args.release_file else None
+        if src is None or not src.exists():
+            with tempfile.TemporaryDirectory() as td:
+                zpath = Path(td) / "archive.zip"
+                rc, _, err = run([GIT, "archive", "--format=zip", f"-o{zpath}", args.tag], cwd=repo)
+                if rc != 0:
+                    zpath = None
+                src = zpath
+        if src and src.exists():
+            local_hash = hashlib.new(algo, src.read_bytes()).hexdigest() if algo else ""
+            results.append((f"Zenodo 文件 {algo}", pub_hash[:16] + "…",
+                            "MATCH" if pub_hash == local_hash else f"DIFF (本地 {local_hash[:16]}…)"))
+        else:
+            results.append(("Zenodo 文件", "N/A", "FAIL 无本地发布包"))
     except Exception as e:
         results.append(("Zenodo", "N/A", f"FAIL {str(e)[:60]}"))
 
