@@ -106,11 +106,13 @@ def main() -> int:
             results.append(("Gitee main", "N/A", f"FAIL {err[:60]}"))
             g_tree = ""
 
-    # GitHub（API，内容树比较）
+    # GitHub（API：ref → commit → tree 比较内容）
     gh_tok = github_token()
     try:
-        tr = github_get(f"https://api.github.com/repos/{args.github}/git/trees/main?recursive=1", gh_tok)
-        gh_tree = tr["sha"]
+        ref = github_get(f"https://api.github.com/repos/{args.github}/git/ref/heads/main", gh_tok)
+        commit_obj = github_get(
+            f"https://api.github.com/repos/{args.github}/git/commits/{ref['object']['sha']}", gh_tok)
+        gh_tree = commit_obj["tree"]["sha"]
         results.append(("GitHub tree", gh_tree[:12], "MATCH" if gh_tree == local_tree else "DIFF"))
     except Exception as e:
         results.append(("GitHub tree", "N/A", f"FAIL {str(e)[:60]}"))
