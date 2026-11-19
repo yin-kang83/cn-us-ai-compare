@@ -1,17 +1,17 @@
 cff-version: 1.2.0
-title: "中美 AI 对比研究（公开版 v1.4）"
+title: "中美 AI 对比研究（公开版 v1.5.1）"
 message: "If you use this work, please cite it as below."
 type: report
 authors:
   - family-names: "yin"
     given-names: "kang83"
 date-released: "2026-11-19"
-version: "1.4"
+version: "1.5.1"
 url: "https://gitee.com/yin-kang83/cn-us-ai-compare"
-doi: "10.5281/zenodo.24373672"
+doi: "10.5281/zenodo.24374262"
 identifiers:
   - type: doi
-    value: "10.5281/zenodo.24373672"
+    value: "10.5281/zenodo.24374262"
   - type: doi
-    value: "10.5281/zenodo.24373980"
+    value: "10.5281/zenodo.24374263"
 license: "CC-BY-4.0"

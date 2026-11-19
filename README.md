@@ -2,8 +2,8 @@
 
 一套**可回溯、可证伪、可迭代**的中美 AI 产业对比研究：分层框架 L1–L5、美国 12 家科技/芯片公司、中国 A 股 23 家 AI 与算力公司、跨市场比率与证伪账本。
 
-> DOI: [10.5281/zenodo.24373672](https://doi.org/10.5281/zenodo.24373672) ｜ Zenodo: https://zenodo.org/records/24373672
-> 公开版报告 v1.4（2026-11-19）：A 股 2026 三季报/半年报原文 23/23 已核；美国 2026Q3 财报季。
+> DOI: [10.5281/zenodo.24374262](https://doi.org/10.5281/zenodo.24374262) ｜ Zenodo: https://zenodo.org/records/24373672
+> 公开版报告 v1.5.1（2026-11-20）：A 股 2026 三季报/半年报原文 23/23 已核；美国 2026Q3 财报季。
 > 研究材料，不构成投资建议。
 
 ## 目录
@@ -61,7 +61,7 @@ PDFs are in [`papers/`](papers/). Working papers, not peer reviewed.
 
 ## 引用
 
-见 `CITATION.cff`；或：`yin-kang83. 中美 AI 对比研究（公开版 v1.4）. 2026. https://gitee.com/yin-kang83/cn-us-ai-compare`
+见 `CITATION.cff`；或：`yin-kang83. 中美 AI 对比研究（公开版 v1.5.1）. 2026. https://gitee.com/yin-kang83/cn-us-ai-compare`
 
 ## 更新节奏
 
@@ -76,8 +76,8 @@ PDFs are in [`papers/`](papers/). Working papers, not peer reviewed.
 
 ## 归档与引用（v1.4）
 
-- 报告 DOI：[10.5281/zenodo.24373672](https://doi.org/10.5281/zenodo.24373672)（记录 24373672）；
-- 代码/可复现包 DOI：[10.5281/zenodo.24373980](https://doi.org/10.5281/zenodo.24373980)（记录 24373980，software）；
+- 报告 DOI：[10.5281/zenodo.24374262](https://doi.org/10.5281/zenodo.24374262)（记录 24373672）；
+- 代码/可复现包 DOI：[10.5281/zenodo.24374263](https://doi.org/10.5281/zenodo.24374263)（记录 24373980，software）；
 - **两条记录相互匹配**：同一 git tag v1.4、同一归档包 `cn-us-ai-compare-v1.4.zip`，
   sha256 `c22fd0da99ee…` / md5 `ee31cd3afae30230a73dd435c2021095`；详见 `ARCHIVE.md`。
 
@@ -86,8 +86,8 @@ PDFs are in [`papers/`](papers/). Working papers, not peer reviewed.
 
 Zenodo 归档包**自包含**：报告 PDF/代码/数据/论文/一致性脚本都在同一个 zip 内，下载即完整，无需打开 Gitee/GitHub。
 
-- 报告+完整包（v1.4）：[cn-us-ai-compare-v1.4.zip](https://zenodo.org/records/24373672/files/cn-us-ai-compare-v1.4.zip?download=1)（记录 [24373672](https://zenodo.org/records/24373672)，DOI `10.5281/zenodo.24373672`）
-- 代码/可复现包（software，v1.4）：https://zenodo.org/records/24373980（DOI `10.5281/zenodo.24373980`）
+- 报告+完整包（v1.4）：[cn-us-ai-compare-v1.4.zip](https://zenodo.org/records/24373672/files/cn-us-ai-compare-v1.4.zip?download=1)（记录 [24373672](https://zenodo.org/records/24373672)，DOI `10.5281/zenodo.24374262`）
+- 代码/可复现包（software，v1.4）：https://zenodo.org/records/24373980（DOI `10.5281/zenodo.24374263`）
 - Gitee/GitHub 仅作代码镜像与更新源；GitHub 读者也可不登录直接下载 Release 附件。
 
 > 两条 Zenodo 记录**相互匹配**：同一 v1.4 归档包、同一 sha256/md5；详见 `ARCHIVE.md`。

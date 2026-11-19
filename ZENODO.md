@@ -1,6 +1,6 @@
 # 发布到 Zenodo（拿 DOI）
 
-> ✅ **已发布（v1.4，2026-11-19）**：DOI **[10.5281/zenodo.24373672](https://doi.org/10.5281/zenodo.24373672)** ｜ 记录页 https://zenodo.org/records/24373672 ｜ 概念 DOI 10.5281/zenodo.24353869
+> ✅ **已发布（v1.5.1，2026-11-20）**：DOI **[10.5281/zenodo.24374262](https://doi.org/10.5281/zenodo.24374262)** ｜ 记录页 https://zenodo.org/records/24374262 ｜ 概念 DOI 10.5281/zenodo.24353869
 
 
 ## 方式 A：GitHub–Zenodo 自动集成（推荐，一次配置长期有效）
@@ -57,13 +57,13 @@ curl -X POST "https://zenodo.org/api/deposit/depositions/$ID/actions/publish" \
 
 ## 代码记录（software，v1.4）
 
-- Zenodo 记录 **24373980**：https://zenodo.org/records/24373980 ｜ DOI `10.5281/zenodo.24373980`；
-- 与报告记录 **24373672**（`10.5281/zenodo.24373672`）**相互匹配**：同一版本 v1.4、同一归档包、同一 sha256/md5，
-  代码记录 metadata 声明 `isSupplementTo → 10.5281/zenodo.24373672`；详见 `ARCHIVE.md`。
+- Zenodo 记录 **24374263**：https://zenodo.org/records/24374263 ｜ DOI `10.5281/zenodo.24374263`；
+- 与报告记录 **24374262**（`10.5281/zenodo.24374262`）**相互匹配**：同一版本 v1.4、同一归档包、同一 sha256/md5，
+  代码记录 metadata 声明 `isSupplementTo → 10.5281/zenodo.24374262`；详见 `ARCHIVE.md`。
 
 
 ## 下载入口（面向读者，无需登录）
 
-- 直接下载完整包：https://zenodo.org/records/24373672/files/cn-us-ai-compare-v1.4.zip?download=1
-- 报告记录：https://zenodo.org/records/24373672 ｜ 代码记录：https://zenodo.org/records/24373980
+- 直接下载完整包：https://zenodo.org/records/24374262/files/cn-us-ai-compare-v1.4.zip?download=1
+- 报告记录：https://zenodo.org/records/24374262 ｜ 代码记录：https://zenodo.org/records/24374263
 - 归档包自包含（报告 PDF + 代码 + 数据 + 论文），无需访问 Gitee/GitHub。

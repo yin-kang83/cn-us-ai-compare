@@ -10,6 +10,6 @@ Two working papers based on this project's data and framework:
 
 Author: Kang Yin (Independent Researcher, ORCID 0009-0001-2723-1293).
 
-Data and code: https://gitee.com/yin-kang83/cn-us-ai-compare (mirror: GitHub) · Archive DOI (v1.4, report): https://doi.org/10.5281/zenodo.24373672 ｜ Code DOI (v1.4, software): https://doi.org/10.5281/zenodo.24373980
+Data and code: https://gitee.com/yin-kang83/cn-us-ai-compare (mirror: GitHub) · Archive DOI (v1.4, report): https://doi.org/10.5281/zenodo.24374262 ｜ Code DOI (v1.4, software): https://doi.org/10.5281/zenodo.24374263
 
 Working papers — not peer reviewed. Comments welcome via issues.

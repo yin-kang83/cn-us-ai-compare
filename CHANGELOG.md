@@ -1,5 +1,10 @@
 # Changelog
 
+## v1.5.1（2026-11-20）
+- 新增方法论文章《AI 学习的四种路径与可验证性标准》（methodology/）及知乎/公众号连载版（methodology/serial/，3 篇）；
+- 归档更新：报告 DOI 10.5281/zenodo.24374262、代码 DOI 10.5281/zenodo.24374263（同一 v1.5.1 归档包，sha256/md5 一致，见 ARCHIVE.md）；
+- v1.4 记录保留为历史版本；v1.5.1 起归档包包含文章与连载版。
+
 ## v1.4（2026-11-19）
 - 归档包纳入**完整代码与文档**：新增 `scripts/check_consistency.py`、`SYNC.md`、两篇工作论文（`papers/`）；
 - **行尾统一为 LF**（`.gitattributes`），解决此前工作区 CRLF 导致 Zenodo/GitHub 与 Git 标签 blob 不一致的问题；
