@@ -56,8 +56,8 @@ def main() -> int:
     try:
         parent = req("GET", f"{repo_api}/git/ref/heads/{args.branch}", token)["object"]["sha"]
     except urllib.error.HTTPError as e:
-        if e.code != 404:
-            print("ref check failed:", e.code); return 3
+        if e.code not in (404, 409):
+            print("ref check failed:", e.code, e.read().decode()[:120]); return 3
         try:
             req("PUT", f"{repo_api}/contents/README.md", token,
                 {"message": "init", "content": base64.b64encode(b"# init\n").decode()})
