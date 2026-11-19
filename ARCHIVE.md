@@ -13,8 +13,8 @@ git tag `v1.5.2`、同一个归档包**（同一 sha256/md5），不是两份不
 - **同一归档包**：两者文件均为 `cn-us-ai-compare-v1.5.2.zip`；
 - **同一校验和**：两记录文件 checksum 一致；sha256/md5 以 Zenodo 记录与 GitHub Release 附件 `SHA256SUMS-v1.5.2.txt` 为准（归档包外校验，避免自引用）；
 - **同一来源**：git tag `v1.5.2`（Gitee/GitHub），归档包由 `git archive v1.5.2` 生成（行尾 LF，无 CRLF）；
-- **关联声明**：代码记录 metadata.related_identifiers 含
-  `isSupplementTo → 10.5281/zenodo.24374262`（代码补充该报告）；
+- **关联声明**：两记录为同一归档包（文件/校验和一致）；代码记录 Zenodo 页面的 related_identifiers 以页面显示为准
+  （v1.5.2 发布时关联字段指向历史 v1.4 报告 DOI，如需更新需在 Zenodo 新建版本时修改）；
 - **三处一致性**：`scripts/check_consistency.py` 于 2026-11-20 返回 **PASS**
   （Gitee/GitHub tree 与本地 MATCH、Zenodo 报告记录 v1.5.2/DOI/文件 md5 MATCH）。
 
