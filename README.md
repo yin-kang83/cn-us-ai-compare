@@ -3,7 +3,7 @@
 一套**可回溯、可证伪、可迭代**的中美 AI 产业对比研究：分层框架 L1–L5、美国 12 家科技/芯片公司、中国 A 股 23 家 AI 与算力公司、跨市场比率与证伪账本。
 
 > DOI: [10.5281/zenodo.24374262](https://doi.org/10.5281/zenodo.24374262) ｜ Zenodo: https://zenodo.org/records/24373672
-> 公开版报告 v1.5.1（2026-11-20）：A 股 2026 三季报/半年报原文 23/23 已核；美国 2026Q3 财报季。
+> 公开版报告 v1.5.2（2026-11-20）：A 股 2026 三季报/半年报原文 23/23 已核；美国 2026Q3 财报季。
 > 研究材料，不构成投资建议。
 
 ## 目录
@@ -61,7 +61,7 @@ PDFs are in [`papers/`](papers/). Working papers, not peer reviewed.
 
 ## 引用
 
-见 `CITATION.cff`；或：`yin-kang83. 中美 AI 对比研究（公开版 v1.5.1）. 2026. https://gitee.com/yin-kang83/cn-us-ai-compare`
+见 `CITATION.cff`；或：`yin-kang83. 中美 AI 对比研究（公开版 v1.5.2）. 2026. https://gitee.com/yin-kang83/cn-us-ai-compare`
 
 ## 更新节奏
 
