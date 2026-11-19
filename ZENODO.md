@@ -1,6 +1,6 @@
 # 发布到 Zenodo（拿 DOI）
 
-> ✅ **已发布（2026-11-19）**：DOI **[10.5281/zenodo.24353870](https://doi.org/10.5281/zenodo.24353870)** ｜ 记录页 https://zenodo.org/records/24353870 ｜ 版本 v1.3.1
+> ✅ **已发布（v1.4，2026-11-19）**：DOI **[10.5281/zenodo.24373672](https://doi.org/10.5281/zenodo.24373672)** ｜ 记录页 https://zenodo.org/records/24373672 ｜ 概念 DOI 10.5281/zenodo.24353869
 
 
 ## 方式 A：GitHub–Zenodo 自动集成（推荐，一次配置长期有效）
