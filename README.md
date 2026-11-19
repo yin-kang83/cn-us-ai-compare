@@ -80,3 +80,19 @@ PDFs are in [`papers/`](papers/). Working papers, not peer reviewed.
 - 代码/可复现包 DOI：[10.5281/zenodo.24373980](https://doi.org/10.5281/zenodo.24373980)（记录 24373980，software）；
 - **两条记录相互匹配**：同一 git tag v1.4、同一归档包 `cn-us-ai-compare-v1.4.zip`，
   sha256 `c22fd0da99ee…` / md5 `ee31cd3afae30230a73dd435c2021095`；详见 `ARCHIVE.md`。
+
+
+## 下载入口（无需 Gitee/GitHub 账号）
+
+Zenodo 归档包**自包含**：报告 PDF/代码/数据/论文/一致性脚本都在同一个 zip 内，下载即完整，无需打开 Gitee/GitHub。
+
+- 报告+完整包（v1.4）：[cn-us-ai-compare-v1.4.zip](https://zenodo.org/records/24373672/files/cn-us-ai-compare-v1.4.zip?download=1)（记录 [24373672](https://zenodo.org/records/24373672)，DOI `10.5281/zenodo.24373672`）
+- 代码/可复现包（software，v1.4）：https://zenodo.org/records/24373980（DOI `10.5281/zenodo.24373980`）
+- Gitee/GitHub 仅作代码镜像与更新源；GitHub 读者也可不登录直接下载 Release 附件。
+
+> 两条 Zenodo 记录**相互匹配**：同一 v1.4 归档包、同一 sha256/md5；详见 `ARCHIVE.md`。
+
+
+## 延伸阅读
+
+- [《AI 学习的四种路径与可验证性标准》](methodology/AI学习的四种路径与可验证性标准-20261119.md)：四种学习路径、可验证性四问、用本研究的 197 条 claim / 48 条证伪假设做案例，附 6 个月路径。

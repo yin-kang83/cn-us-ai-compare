@@ -60,3 +60,10 @@ curl -X POST "https://zenodo.org/api/deposit/depositions/$ID/actions/publish" \
 - Zenodo 记录 **24373980**：https://zenodo.org/records/24373980 ｜ DOI `10.5281/zenodo.24373980`；
 - 与报告记录 **24373672**（`10.5281/zenodo.24373672`）**相互匹配**：同一版本 v1.4、同一归档包、同一 sha256/md5，
   代码记录 metadata 声明 `isSupplementTo → 10.5281/zenodo.24373672`；详见 `ARCHIVE.md`。
+
+
+## 下载入口（面向读者，无需登录）
+
+- 直接下载完整包：https://zenodo.org/records/24373672/files/cn-us-ai-compare-v1.4.zip?download=1
+- 报告记录：https://zenodo.org/records/24373672 ｜ 代码记录：https://zenodo.org/records/24373980
+- 归档包自包含（报告 PDF + 代码 + 数据 + 论文），无需访问 Gitee/GitHub。
