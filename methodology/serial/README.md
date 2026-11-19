@@ -14,3 +14,10 @@
 - 标题/封面可各平台微调；正文来源链接指向 Gitee/GitHub/Zenodo；
 - 数据引用保留 claim id（如 K-003/C1），便于读者复查；
 - 文末统一加：研究材料，不构成投资建议；报告/数据 CC BY 4.0，scripts/ MIT。
+
+
+## 已发布（2026-11-20，知乎）
+- 路径篇：https://zhuanlan.zhihu.com/p/2106907725418570004
+- 硬标准篇：https://zhuanlan.zhihu.com/p/2106908185600718433
+- 6 个月篇：https://zhuanlan.zhihu.com/p/2106908268958372492
+- 相关回答：如何自学人工智能 https://www.zhihu.com/question/21277368/answer/2106909055390331968 ｜ AI 课程割韭菜吗 https://www.zhihu.com/question/12126518750/answer/2106909160986222858 ｜ 怎么判断真的学会 https://www.zhihu.com/question/2095114195478098529/answer/2106909232830346883
