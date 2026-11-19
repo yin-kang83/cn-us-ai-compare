@@ -6,6 +6,7 @@
 - `us_financials_12.json`：美国 12 家财务底表（SEC XBRL，FY 最新）。
 - `us_capex_qtr.json`：美国四大云厂商单季 capex（10-Q/companyfacts）。
 - `cn_23_2026q3.csv` / `cn_23_2026h1.csv`：A 股 23 家 2026 三季报/半年报财务摘要（亿元，原文核对）。
+- `literature_ledger.jsonl`：文献元数据账本（OpenAlex/Crossref/arXiv，`evidence_level=L3_METADATA`，仅线索，不是事实结论）；由 `scripts/ingest_literature.py` 生成，详见 `docs/LITERATURE-PIPELINE.md`。
 
 ## 来源与许可
 - 美国数据：SEC EDGAR（公开文件，美国联邦政府作品一般不受版权保护）。

@@ -95,4 +95,6 @@ Zenodo 归档包**自包含**：报告 PDF/代码/数据/论文/一致性脚本�
 
 ## 延伸阅读
 
+- `docs/LITERATURE-PIPELINE.md`：文献检索 → 证据账本（OpenAlex/Crossref/arXiv，L3 元数据，不入全文）。
+
 - [《AI 学习的四种路径与可验证性标准》](methodology/AI学习的四种路径与可验证性标准-20261119.md)：四种学习路径、可验证性四问、用本研究的 197 条 claim / 48 条证伪假设做案例，附 6 个月路径。
