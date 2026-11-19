@@ -72,3 +72,11 @@ PDFs are in [`papers/`](papers/). Working papers, not peer reviewed.
 ## 免责声明
 
 见 `DISCLAIMER.md`：研究参考，不构成投资建议；数据可能滞后或被修订，以公司公告与监管文件为准。
+
+
+## 归档与引用（v1.4）
+
+- 报告 DOI：[10.5281/zenodo.24373672](https://doi.org/10.5281/zenodo.24373672)（记录 24373672）；
+- 代码/可复现包 DOI：[10.5281/zenodo.24373980](https://doi.org/10.5281/zenodo.24373980)（记录 24373980，software）；
+- **两条记录相互匹配**：同一 git tag v1.4、同一归档包 `cn-us-ai-compare-v1.4.zip`，
+  sha256 `c22fd0da99ee…` / md5 `ee31cd3afae30230a73dd435c2021095`；详见 `ARCHIVE.md`。

@@ -53,3 +53,10 @@ curl -X POST "https://zenodo.org/api/deposit/depositions/$ID/actions/publish" \
 
 - 文件：`cn-us-ai-compare-v1.3.1.zip`（由 tag v1.3.1 的 `git archive` 生成，SHA256 见发布目目录 `SHA256SUMS.txt`）
 - 内容：报告（MD/PDF/图）、方法论、数据摘要、脚本、许可与风险控制清单；不含公告 PDF 全文与内部路径。
+
+
+## 代码记录（software，v1.4）
+
+- Zenodo 记录 **24373980**：https://zenodo.org/records/24373980 ｜ DOI `10.5281/zenodo.24373980`；
+- 与报告记录 **24373672**（`10.5281/zenodo.24373672`）**相互匹配**：同一版本 v1.4、同一归档包、同一 sha256/md5，
+  代码记录 metadata 声明 `isSupplementTo → 10.5281/zenodo.24373672`；详见 `ARCHIVE.md`。

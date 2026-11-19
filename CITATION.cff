@@ -12,4 +12,6 @@ doi: "10.5281/zenodo.24373672"
 identifiers:
   - type: doi
     value: "10.5281/zenodo.24373672"
+  - type: doi
+    value: "10.5281/zenodo.24373980"
 license: "CC-BY-4.0"
